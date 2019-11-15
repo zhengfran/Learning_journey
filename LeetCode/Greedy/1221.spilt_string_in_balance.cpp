@@ -7,6 +7,9 @@ Return the maximum amount of splitted balanced strings.
 */
 #include <string>
 
+/*actually can use only one variable to monitor the status: l-> +1
+                                       R->-1
+*/
 using namespace std;
 class Solution {
 public:

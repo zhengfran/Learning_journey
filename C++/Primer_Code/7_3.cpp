@@ -39,7 +39,7 @@ char Screen::get(pos r, pos c) const{
     return contents[row+c];
 }
 
-//mutable example
+//mutable example , can change const variable
 void Screen::some_member() const
 {
     ++access_ctr;
